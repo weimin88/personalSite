@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<meta name="description" content="">
+<meta name="author" content="">
+	<title>Redisign</title>
+	<link href="https://code.jquery.com/ui/1.11.4/themes/cupertino/jquery-ui.css" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-1.11.2.js"></script>
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<!-- Font awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+<!-- Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Yantramanav:400,300,500' rel='stylesheet' type='text/css'>
+
+<!-- CSS -->
+<link href="style2.css" rel="stylesheet">
+
+<!-- Sidebar Css -->
+<link href="css/easy-sidebar.css" rel="stylesheet" type="text/css">
+<!-- JS -->
+<script src="js/jquery.detect_swipe.js"></script>
+<!-- SignUp and Login --> 
+<script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+<script src="js/js.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     <img src="img/logo.png">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="2.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-comment"></span> Blog</a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-user"></span> Login / Sign Up</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+		
+<br><br><br><br>
+
+
+
+	<div class="container">
+
+		<div class="search">
+			
+			<input id="autocomplete1">
+			<label for="autocomplete1"><button id="button1">Search </button></label>
+		</div>
+		
+	
+	<ul class="nav nav-tabs navbar-right">
+		<li class="active"><a href="#playlists" data-toggle="tab">Play Lists </a></li>
+		<li><a href="#android" data-toggle="tab">Android</a></li>
+		<li><a href="#swift" data-toggle="tab">Swift</a></li>
+		
+		
+	</ul>
+	<div class="tab-content">
+	<div id="playlists" class="tab-pane active">
+		<div class="playlist1">
+		<div class="content-left">
+		<img src="img/1.png">
+	</div>
+	<div class="content-right">
+		<p>Welcome to the Android Tack. First things first is to set up your computer to learn Android Prog...</p>
+		<img src="img/4.png">
+	<hr></div>
+</div>
+
+	<div class="playlist2">
+	<div class="content-left">
+		<img src="img/2.png">
+	</div>
+	<div class="content-right">
+		<p>It's nice to get an understanding of the Android Stack as a ner developer. This picture is a hug...</p>
+		<img src="img/4.png">
+	<hr></div></div>
+
+	<div class="playlist3">
+	<div class="content-left">
+		<img src="img/3.png">
+	</div>
+	<div class="content-right">
+		<p>Here we will learn how to make our first hello world app in Android. We will also breifly explore...</p>
+		<img src="img/4.png">
+	</div></div>
+		
+	</div>
+	<div id="android" class="tab-pane">
+		<div class="content-left">
+		<img src="img/2.png">
+	</div>
+	<div class="content-right">
+		<p>It's nice to get an understanding of the Android Stack as a ner developer. This picture is a hug...</p>
+		<img src="img/4.png">
+	</div>
+		
+	</div>
+	<div id="swift" class="tab-pane">
+		<div class="content-left">
+		<img src="img/3.png">
+	</div>
+	<div class="content-right">
+		<p>Here we will learn how to make our first hello world app in Android. We will also breifly explore...</p>
+		<img src="img/4.png">
+	</div>
+	</div>
+	
+	</div>
+</div>
+<footer>
+	<div class="left">
+		<p> Copyright(c) MoQu 2014. All Right Reserved.
+	</div>
+	<div class="right">
+		<ul>
+			<li>Explore | <a href="#">Home</a>   <a href="#">Blog</a>   <a href="#">About Us</a>   <a href="#">Bits+</a>   <a href="#">Jobs</a></li>
+			<li>Download | <a href="#">For iOS</a>   <a href="#">For Android</a></li>
+			<li>Contact | <a href="#">Email/Chat</a>   <a href="#">Facebook</a>   <a href="#">Twitter</a></li>
+
+		</ul>
+
+	</div>
+
+</footer>
+	
+</body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77849012-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

@@ -1,0 +1,153 @@
+.tab-content {
+	padding: 10px;
+}
+
+.tab-content img {
+	padding: 5%;
+	
+}
+
+
+
+
+.container {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+	padding: 10px;
+	margin: 10px;
+	margin: auto;
+	background-color: #DEDEDE;
+}
+
+.content-left {
+	float: left;
+
+width: 30%;
+
+}
+.content-left img {
+
+max-width: 450px;
+min-width: 250px;
+	width: 200%;
+	
+}
+
+.content-right {
+	float: right;
+	padding-top: 70px;
+	width: 100%;
+
+}
+.content-right p {
+	font-size: 1.5em;
+	width:100%;
+	padding-left: 30px;
+}
+
+.content-right img {
+	width: 80%;
+	max-width: 550px;
+	min-width: 380px;
+}
+
+.playlist1 {
+
+}
+
+
+footer {
+	padding: 30px;
+}
+ul li {
+	list-style: none;
+}
+
+
+
+.right {
+	float: right;
+	overflow: hidden;
+
+}
+
+.right ul li {
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+.left {
+	float: left;
+	padding: 10px;
+	padding-top: 100px;
+}
+
+
+
+
+.account {
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+	padding-top:40px; 
+}
+
+.login {
+	padding: 50px;
+}
+
+
+
+
+.account {
+	width: 90%;
+	background-color: white;
+	border: 2px solid #785E6F;
+	border-radius:8px;
+
+}
+
+
+
+.loginwrap {
+  text-align: center;
+  margin-top:20px; 
+
+}
+#login_password {
+
+}
+
+.signupwrap {
+  margin-top: 25px;
+}
+
+.logo {
+	text-align: center;
+
+}
+
+.loginlogo {
+	width: 50%;
+}
+
+#login_button, #register_button {
+	background-color: #65495D; 
+    color: white;
+	margin: 4px;
+}
+
+#login_button:hover {
+	
+     background-color: white; 
+    color: black; 
+    border: 2px solid #65495D;
+}
+
+#register_button:hover {
+	
+     background-color: white; 
+    color: black; 
+    border: 2px solid #65495D;
+}
